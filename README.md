@@ -1,5 +1,4 @@
 # tianlu
-<<<<<<< HEAD
 
 > My mathematical Nuxt.js project
 
@@ -21,6 +20,3 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-=======
-vue练手项目
->>>>>>> 419b76376d41084db8bbf035d0d22fc3e6370a6b
