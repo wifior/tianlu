@@ -1,0 +1,10 @@
+{
+    "timeout" : 10000,
+    "load":{
+        "before":[],
+        "order":[
+             "define the "
+        ],
+        "after":[]
+    }
+}
