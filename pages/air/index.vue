@@ -1,7 +1,7 @@
 <template>
-    <div>
+  <div>
     机票首页
-    </div>
+  </div>
 </template>
 
 <script>

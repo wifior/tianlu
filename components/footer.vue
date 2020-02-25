@@ -35,13 +35,41 @@ export default {
       background: #333;
       color: #ccc;
       min-width: 1000px;
-      .footer{
-          padding-top: 30px;
-          margin: 0 auto;
-          width: 1000px;
-      }
-      .info-list{
-          box-sizing: border-box;
-      }
   }
+    .footer{
+        padding-top: 30px;
+        margin: 0 auto;
+        width: 1000px;
+    }
+      .info-list{
+          h5{
+              font-weight: normal;
+              font-size: 16px;
+              margin-bottom: 10px;
+          }
+          p{
+              font-size: 12px;
+              line-height: 1.8;
+              span{
+                  color: orange;
+              }
+          }
+      }
+ .scan{
+          text-align: center;
+
+          img{
+              width: 140px;
+              height: 140px;
+          }
+          font-size: 12px;
+      }
+
+      .licence{
+          border-top: 1px #666 solid;
+          margin-top: 20px;
+          padding: 50px 0;
+          text-align: center;
+          font-size: 12px;
+      }
 </style>

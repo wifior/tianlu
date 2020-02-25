@@ -26,7 +26,9 @@
                         </span>
                         <el-dropdown-menu slot="dropdown">
                             <el-dropdown-item>个人中心</el-dropdown-item>
-                            <el-dropdown-item>退出</el-dropdown-item>
+                            <el-dropdown-item>
+                            <div @click="handleClick">退出</div>
+                            </el-dropdown-item>
                         </el-dropdown-menu>
                     </el-dropdown>
                 </div>
@@ -38,6 +40,14 @@
 
 <script>
 export default {
+  mounted () {
+    console.log(this.$store.state)
+  },
+  methods: {
+    handleClick () {
+      alert(123)
+    }
+  }
 }
 </script>
 
